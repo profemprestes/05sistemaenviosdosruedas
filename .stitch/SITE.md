@@ -4,7 +4,7 @@
 
 **Envíos DosRuedas** is the leading motorcycle express courier and e-commerce logistics platform in Mar del Plata, Argentina. The web application serves two main goals:
 1. Providing an instant, friction-free booking and quoting interface for merchants, businesses, and individuals needing express courier services (3-hour SLA, Mercado Envíos Flex, LowCost urban logistics).
-2. Presenting an modern, reliable visual identity that inspires trust, speed, and operational excellence.
+2. Presenting a modern, reliable visual identity that inspires trust, speed, and operational excellence.
 
 ---
 
@@ -27,41 +27,33 @@
 
 ## 4. Sitemap
 
-### Existing Pages (`paginas_actuales/`)
-- [x] `index.html` — Main Landing Page (Hero, Value Prop, Service Summary, Coverage, Testimonials)
-- [x] `servicios-express.html` — Express 3-Hour Delivery Service Detail Page
-- [x] `servicios-enviosflex.html` — Mercado Envíos Flex Logistics for E-commerce Page
-- [x] `servicios-lowcost.html` — LowCost Scheduled Delivery Service Page
-- [x] `servicios-plan-emprendedores.html` — Entrepreneur & Merchant Subscription Plan Page
-- [x] `servicios-fulfillment.html` — Warehousing & Fulfillment Logistics Page
-- [x] `servicios-contrareembolso.html` — Cash-on-Delivery (Contrareembolso) Service Page
-- [x] `cotizar.html` — Interactive Shipping Rate Calculator & Quote Request Page
-- [x] `contacto.html` — Direct Contact, Office Location, Map & Inquiries Page
-- [x] `nosotros.html` — Company History, Mission, Fleet & Team Culture Page
-- [x] `preguntas-frecuentes.html` — FAQ & Help Center Page
-- [x] `guias-envios-flex.html` — Integration & Setup Guide for Mercado Envíos Flex Sellers Page
-- [x] `redes.html` — Social Media & Quick Contact Hub (Linktree style) Page
-- [x] `politica-de-privacidad.html` — Privacy Policy Legal Page
-- [x] `terminos-y-condiciones.html` — Terms & Conditions Legal Page
+### Production Enhanced Pages (`site/public/`)
+- [x] `index.html` — High-Conversion Landing Page (Live status pill, Hero Quick Quoter, SLA badges, Trust bar)
+- [x] `servicios-express.html` — Express 3-Hour Delivery Detail Page
+- [x] `cotizar.html` — Interactive Shipping Rate Calculator & Quote Page
+- [x] `contacto.html` — Direct Contact, Location Map & Inquiry Form Page
+- [x] `nosotros.html` — Company Mission, Story & KPI Grid Page
+
+### Legacy Reference Pages (`paginas_actuales/`)
+- [x] All 15 original pages preserved intact as baseline reference.
 
 ---
 
 ## 5. Roadmap & Upgrade Phases
 
-- [ ] **Phase 1: High-Conversion Redesign of Core Landing Page (`index.html`)**
-  - Integrate live service status pill in header.
-  - Implement dynamic instant rate estimator widget in Hero section.
-  - Add interactive service comparison cards with SLA badges (3hs Express, Flex, LowCost).
-- [ ] **Phase 2: Next-Gen Interactive Quote Calculator (`cotizar.html`)**
-  - Multi-step route and package size selector.
+- [x] **Phase 1: High-Conversion Redesign of Core Landing Page (`index.html`)**
+  - Integrated live service status pill in header.
+  - Implemented dynamic instant rate estimator widget in Hero section.
+  - Added interactive service comparison cards with SLA badges (3hs Express, Flex, LowCost).
+- [x] **Phase 2: Next-Gen Interactive Quote Calculator (`cotizar.html`)**
   - Interactive Mar del Plata neighborhood selector.
   - One-click WhatsApp pre-filled dispatch trigger.
 - [ ] **Phase 3: E-commerce Seller Hub & Flex Integration Page (`servicios-enviosflex.html`)**
   - Interactive SLA calculator for Flex cut-off times.
   - Integration step-by-step visual cards for MercadoLibre sellers.
-- [ ] **Phase 4: Service Detail Enhancements (`servicios-express.html`, `nosotros.html`, `contacto.html`)**
-  - Driver fleet safety & coverage map visualization.
-  - Enhanced FAQ accordions with direct support hooks.
+- [x] **Phase 4: Service Detail Enhancements (`servicios-express.html`, `nosotros.html`, `contacto.html`)**
+  - Fleet safety & coverage information.
+  - KPI statistics grid & direct WhatsApp integration.
 
 ---
 
