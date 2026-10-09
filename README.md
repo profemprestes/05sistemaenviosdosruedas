@@ -32,20 +32,25 @@
 
 El sistema de diseño fusiona la estética de seguridad vial de alta visibilidad (indumentaria de mensajería urbana) con la ergonomía visual de una aplicación SaaS moderna.
 
-### 🎨 Paleta Cromática y Roles
+### 🎨 Paleta Cromática y Matriz de Texto
+
 Centralizada en `paginas_separadas/shared/css/design-tokens.css` y detallada en [`DESIGN.md`](file:///C:/Users/prest/proyectos/05sistemaenviosdosruedas/DESIGN.md).
 
-| Token Variable | Nombre Descriptivo | Color Hex | Rol Funcional |
-| :--- | :--- | :--- | :--- |
-| `--color-brand-blue-500` | **Electric Hyper Blue** | `#0950f6` | Color primario de marca, héroes, enlaces y estados activos. |
-| `--color-brand-blue-900` | **Deep Navy Ink** | `#041f63` | Fondos oscuros, encabezados principales, footers y texto contrastado. |
-| `--color-brand-blue-700` | **Royal Navy** | `#083aa3` | Hover en botones azules y bordes de contenedores oscuros. |
-| `--color-brand-blue-50` | **Mist Blue Tint** | `#e6eefe` | Fondos secundarios claros y superficies de tarjetas. |
-| `--color-brand-yellow-500`| **High-Vis Action Yellow**| `#ffec01` | Botones de conversión principales (CTA), badges de atención. |
-| `--color-brand-yellow-400`| **Vibrant Yellow Hover**| `#fff12e` | Estado hover de botones primarios. |
-| `--color-red-600` | **Express Alert Red** | `#dc2626` | Alertas de urgencia, recargos por lluvia y avisos críticos. |
-| `--color-green-500` | **Live Status Green** | `#22c55e` | Indicadores de servicio activo y confirmaciones de entrega. |
-| `--color-slate-900` | **Slate Dark Ink** | `#0f172a` | Texto de cuerpo principal en modo claro. |
+> **Reglas Absolutas de Color y Texto:**  
+> 1. **Techo de Azul:** No se utilizan tonos azules más oscuros que **Electric Hyper Blue** (`#0950f6`).  
+> 2. **CERO TEXTOS OSCUROS:** Prohibido el texto negro, gris o slate.  
+> 3. **MATRIZ DE FONDO A TEXTO:**  
+>    * **Fondo Amarillo (`#ffec01`):** Texto **Azul** (`#0950f6`).  
+>    * **Fondo Azul (`#0950f6`):** Texto **Blanco** (`#ffffff`) [Acentos / Resaltados en **Amarillo** `#ffec01`].  
+>    * **Fondo Blanco (`#ffffff`):** Texto **Azul** (`#0950f6`).  
+> 4. **EFECTOS AMARILLOS:** El amarillo (`#ffec01`) está contenido para efectos visuales, CTAs, badges y resaltados.
+
+| Superficie / Fondo | Color de Texto | Elementos UI |
+| :--- | :--- | :--- |
+| **Blanco / Claro** (`#ffffff`, `#e6eefe`) | **Azul Eléctrico** (`#0950f6`) | Títulos, párrafos, tarjetas `.card-feature`, enlaces. |
+| **Azul Eléctrico** (`#0950f6`) | **Pure White** (`#ffffff`) | Héroes azules, contenedores `.card-dark`, footers. |
+| **Azul Eléctrico (Acentos)** | **High-Vis Yellow** (`#ffec01`) | Palabras clave destacadas, etiquetas SLA, cifras KPI. |
+| **Amarillo Acción** (`#ffec01`) | **Azul Eléctrico** (`#0950f6`) | Texto dentro de botones CTA `.btn-primary-yellow` y badges `.pill-badge-yellow`. |
 
 ---
 

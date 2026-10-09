@@ -1,20 +1,126 @@
 {
-  "name": "projects/enviosdosruedas-mdp",
-  "projectId": "enviosdosruedas-mdp",
-  "title": "Envíos DosRuedas - Plataforma de Logística Express",
-  "visibility": "PRIVATE",
-  "projectType": "PROJECT_DESIGN",
-  "origin": "STITCH",
-  "deviceType": "DESKTOP",
-  "designTheme": {
-    "colorMode": "LIGHT",
-    "font": "OUTFIT",
-    "roundness": "ROUND_SIXTEEN",
-    "customColor": "#0950f6",
-    "accentColor": "#ffec01"
+  "projectId": "11311557637053872683",
+  "projectResourceName": "projects/11311557637053872683",
+  "title": "Envíos DosRuedas (Mar del Plata)",
+  "designSystem": {
+    "assetId": "45b3f8680fb045688fad2256304570a4",
+    "assetResourceName": "assets/45b3f8680fb045688fad2256304570a4",
+    "sourceScreen": "projects/11311557637053872683/screens/3747250321894486833",
+    "screenInstanceId": "3747250321894486833",
+    "primaryColor": "#0950f6",
+    "ctaColor": "#ffec01",
+    "textColorMatrix": {
+      "onWhite": "#0950f6",
+      "onBlue": "#ffffff",
+      "onYellow": "#0950f6",
+      "accents": "#ffec01"
+    },
+    "fonts": {
+      "display": "Anton / Anton SC",
+      "subheading": "Bebas Neue",
+      "body": "Outfit",
+      "mono": "Geist Mono"
+    }
   },
-  "screens": {},
-  "metadata": {
-    "userRole": "OWNER"
-  }
+  "lastSynced": "2026-10-09T01:18:00Z",
+  "screens": [
+    {
+      "module": "home",
+      "title": "Home Hero",
+      "screenId": "7592107065755341410",
+      "sourceScreen": "projects/11311557637053872683/screens/7592107065755341410",
+      "file": "paginas_separadas/home/hero-animado.html"
+    },
+    {
+      "module": "cotizar",
+      "title": "Cotizar Hero",
+      "screenId": "6529457686985959744",
+      "sourceScreen": "projects/11311557637053872683/screens/6529457686985959744",
+      "file": "paginas_separadas/cotizar/cotizar-hero.html"
+    },
+    {
+      "module": "contacto",
+      "title": "Contacto Hero",
+      "screenId": "14967860829330919017",
+      "sourceScreen": "projects/11311557637053872683/screens/14967860829330919017",
+      "file": "paginas_separadas/contacto/contact-hero.html"
+    },
+    {
+      "module": "enviosemprendedores",
+      "title": "Emprendedores Hero",
+      "screenId": "12599867093415381036",
+      "sourceScreen": "projects/11311557637053872683/screens/12599867093415381036",
+      "file": "paginas_separadas/enviosemprendedores/plan-emprendedores-hero.html"
+    },
+    {
+      "module": "enviosexpress",
+      "title": "Express Hero",
+      "screenId": "14402381087588599057",
+      "sourceScreen": "projects/11311557637053872683/screens/14402381087588599057",
+      "file": "paginas_separadas/enviosexpress/express-hero.html"
+    },
+    {
+      "module": "enviosflex",
+      "title": "Flex Hero",
+      "screenId": "16555135584629120091",
+      "sourceScreen": "projects/11311557637053872683/screens/16555135584629120091",
+      "file": "paginas_separadas/enviosflex/flex-hero.html"
+    },
+    {
+      "module": "enviosfullfilment",
+      "title": "Fulfillment Hero",
+      "screenId": "11173571563572924960",
+      "sourceScreen": "projects/11311557637053872683/screens/11173571563572924960",
+      "file": "paginas_separadas/enviosfullfilment/plan-emprendedores-hero.html"
+    },
+    {
+      "module": "envioslowcost",
+      "title": "LowCost Hero",
+      "screenId": "3730128744935922161",
+      "sourceScreen": "projects/11311557637053872683/screens/3730128744935922161",
+      "file": "paginas_separadas/envioslowcost/lowcost-hero.html"
+    },
+    {
+      "module": "faq",
+      "title": "FAQ Hero",
+      "screenId": "12728037827174626852",
+      "sourceScreen": "projects/11311557637053872683/screens/12728037827174626852",
+      "file": "paginas_separadas/faq/faq-hero.html"
+    },
+    {
+      "module": "nosotros",
+      "title": "Nosotros Hero",
+      "screenId": "3661527864520127181",
+      "sourceScreen": "projects/11311557637053872683/screens/3661527864520127181",
+      "file": "paginas_separadas/nosotros/about-hero.html"
+    },
+    {
+      "module": "politica_privacidad",
+      "title": "Privacidad Hero",
+      "screenId": "14888428110780499698",
+      "sourceScreen": "projects/11311557637053872683/screens/14888428110780499698",
+      "file": "paginas_separadas/politica_privacidad/privacidad-hero.html"
+    },
+    {
+      "module": "redes",
+      "title": "Redes Hero",
+      "screenId": "8203982870439500055",
+      "sourceScreen": "projects/11311557637053872683/screens/8203982870439500055",
+      "file": "paginas_separadas/redes/networks-hero.html"
+    },
+    {
+      "module": "servicios_contrarrembolso",
+      "title": "Contrarrembolso Hero",
+      "screenId": "5826991727903376435",
+      "sourceScreen": "projects/11311557637053872683/screens/5826991727903376435",
+      "file": "paginas_separadas/servicios_contrarrembolso/section-1-seccion-1.html"
+    },
+    {
+      "module": "terminos_condiciones",
+      "title": "Terminos Hero",
+      "screenId": "9190487841533905984",
+      "sourceScreen": "projects/11311557637053872683/screens/9190487841533905984",
+      "file": "paginas_separadas/terminos_condiciones/terminos-hero.html"
+    }
+  ]
 }

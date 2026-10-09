@@ -1,4 +1,4 @@
-
+﻿
       /*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
       @layer properties {
         @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or
@@ -149,10 +149,10 @@
           --color-brand-blue-100: #bacefd;
           --color-brand-blue-400: #3570f8;
           --color-brand-blue-500: #0950f6;
-          --color-brand-blue-600: #0a4fc0;
-          --color-brand-blue-700: #083aa3;
-          --color-brand-blue-800: #062d85;
-          --color-brand-blue-900: #041f63;
+          --color-brand-blue-600: #3570f8;
+          --color-brand-blue-700: #3570f8;
+          --color-brand-blue-800: #0950f6;
+          --color-brand-blue-900: #0950f6;
           --color-brand-yellow-400: #fff12e;
           --color-brand-yellow-500: #ffec01;
         }

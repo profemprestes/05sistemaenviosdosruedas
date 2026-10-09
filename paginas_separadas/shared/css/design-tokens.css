@@ -4,40 +4,44 @@
    ENVÍOS DOSRUEDAS (MAR DEL PLATA) - DESIGN TOKENS & SYSTEM BASE
    File: paginas_separadas/shared/css/design-tokens.css
    Project ID: enviosdosruedas-mdp
+
+   COLOR & TEXT MATRIX RULES:
+   1. Maximum Dark Ceiling for Blue: --color-brand-blue-500 (#0950f6). No darker blues allowed.
+   2. ZERO DARK TEXTS.
+   3. BACKGROUND-TO-TEXT MAPPING:
+      - Fondo Amarillo (#ffec01)  --> Texto Azul (#0950f6).
+      - Fondo Azul (#0950f6)      --> Texto Blanco (#ffffff) / Acentos en Amarillo (#ffec01).
+      - Fondo Blanco (#ffffff)    --> Texto Azul (#0950f6).
+   4. EFECTOS: El Amarillo (#ffec01) se reserva para efectos, CTAs, badges y resaltados.
    ========================================================================== */
 
 :root {
-  /* --- Brand Colors (Electric Hyper Blue & High-Vis Yellow) --- */
-  --color-brand-blue-50: #e6eefe;
+  /* --- Brand Blue Spectrum (Capped at --color-brand-blue-500 #0950f6) --- */
+  --color-brand-blue-50: #e6eefe;  /* Mist Blue Tint */
   --color-brand-blue-75: #d6e4fe;
-  --color-brand-blue-100: #bacefd;
+  --color-brand-blue-100: #bacefd; /* Soft Ice Blue */
   --color-brand-blue-200: #8eaffb;
   --color-brand-blue-300: #628ff9;
-  --color-brand-blue-400: #3570f8;
-  --color-brand-blue-500: #0950f6; /* Electric Hyper Blue (Primary Brand) */
-  --color-brand-blue-600: #0a4fc0;
-  --color-brand-blue-700: #083aa3; /* Royal Navy */
-  --color-brand-blue-800: #062d85;
-  --color-brand-blue-900: #041f63; /* Deep Navy Ink (Dark Backdrops / Headers) */
+  --color-brand-blue-400: #3570f8; /* Vibrant Mid Blue */
+  --color-brand-blue-500: #0950f6; /* Electric Hyper Blue (Primary Brand & Darkest Blue Limit) */
 
+  /* --- Brand Yellow Accent & Effects --- */
   --color-brand-yellow-300: #fff45c; /* Sunlight Accent */
   --color-brand-yellow-400: #fff12e; /* Vibrant Yellow Hover */
-  --color-brand-yellow-500: #ffec01; /* High-Vis Action Yellow (Primary CTA) */
-
-  --color-brand-ink: #041f63;
+  --color-brand-yellow-500: #ffec01; /* High-Vis Action Yellow (Primary CTA & Effects) */
 
   /* --- Alert & Status Colors --- */
   --color-red-600: #dc2626;   /* Express Alert Red (Surge / Emergency) */
   --color-green-500: #22c55e; /* Live Status Green (Service Online / Success) */
 
-  /* --- Neutrals & Surfaces --- */
+  /* --- Pure White & Light Surfaces --- */
   --color-white: #ffffff;
-  --color-slate-50: #f8fafc;
-  --color-slate-100: #f1f5f9;
-  --color-slate-200: #e2e8f0;
-  --color-slate-300: #cbd5e1;
-  --color-slate-500: #64748b; /* Cool Steel Grey (Secondary Text) */
-  --color-slate-900: #0f172a; /* Slate Dark Ink */
+
+  /* --- SEMANTIC TEXT COLOR TOKENS --- */
+  --color-text-on-white: #0950f6;  /* Azul en Fondo Blanco */
+  --color-text-on-blue: #ffffff;   /* Blanco en Fondo Azul */
+  --color-text-on-yellow: #0950f6; /* Azul en Fondo Amarillo */
+  --color-text-accent: #ffec01;    /* Amarillo para resaltados en Fondo Azul */
 
   /* --- Design Tokens Font References --- */
   --dt-font-display: "Anton", "Anton SC", ui-sans-serif, sans-serif;
@@ -75,6 +79,37 @@
 }
 
 /* --------------------------------------------------------------------------
+   GLOBAL BASE RESET & BACKGROUND-TO-TEXT MAPPING RULES
+   -------------------------------------------------------------------------- */
+html, body {
+  background-color: var(--color-white);
+  color: var(--color-brand-blue-500); /* Regla: Fondo Blanco -> Texto Azul (#0950f6) */
+}
+
+/* Regla 1: En fondo blanco o claro, todo el texto es Azul (#0950f6) */
+.bg-white, .bg-light, .card-feature {
+  background-color: var(--color-white);
+  color: var(--color-brand-blue-500);
+}
+
+/* Regla 2: En fondo azul, todo el texto principal es Blanco (#ffffff) */
+.bg-blue, .card-dark, .hero-blue {
+  background-color: var(--color-brand-blue-500);
+  color: #ffffff;
+}
+
+/* Efectos en fondo azul: Acentos y títulos destacados en Amarillo (#ffec01) */
+.bg-blue .highlight, .card-dark .highlight, .hero-blue .text-yellow {
+  color: var(--color-brand-yellow-500) !important;
+}
+
+/* Regla 3: En fondo amarillo, todo el texto es Azul (#0950f6) */
+.bg-yellow, .btn-primary-yellow, .pill-badge-yellow {
+  background-color: var(--color-brand-yellow-500);
+  color: var(--color-brand-blue-500) !important;
+}
+
+/* --------------------------------------------------------------------------
    UTILITY CLASSES FOR DESIGN SYSTEM COMPONENTS
    -------------------------------------------------------------------------- */
 .font-display {
@@ -95,14 +130,29 @@
   font-family: var(--dt-font-mono);
 }
 
+/* --- UTILITY TEXT COLOR CLASSES --- */
+.text-blue {
+  color: var(--color-brand-blue-500) !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-yellow {
+  color: var(--color-brand-yellow-500) !important;
+}
+
 /* --- BUTTON COMPONENTS --- */
+
+/* Botón Primario Amarillo: Fondo Amarillo -> Texto Azul (#0950f6) */
 .btn-primary-yellow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   background-color: var(--color-brand-yellow-500);
-  color: var(--color-brand-blue-900);
+  color: var(--color-brand-blue-500) !important;
   font-family: var(--dt-font-sans);
   font-weight: 700;
   border-radius: 9999px;
@@ -116,17 +166,19 @@
 
 .btn-primary-yellow:hover {
   background-color: var(--color-brand-yellow-400);
+  color: var(--color-brand-blue-500) !important;
   transform: translateY(-2px);
   box-shadow: 0 14px 28px -4px rgba(255, 236, 1, 0.5);
 }
 
+/* Botón Secundario Azul: Fondo Azul -> Texto Blanco (#ffffff) */
 .btn-secondary-blue {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   background-color: var(--color-brand-blue-500);
-  color: #ffffff;
+  color: #ffffff !important;
   font-family: var(--dt-font-sans);
   font-weight: 600;
   border-radius: 9999px;
@@ -138,17 +190,19 @@
 }
 
 .btn-secondary-blue:hover {
-  background-color: var(--color-brand-blue-700);
+  background-color: var(--color-brand-blue-400);
+  color: #ffffff !important;
   transform: translateY(-2px);
 }
 
+/* Botón Outline: Fondo Transparente -> Texto Azul (#0950f6) */
 .btn-outline-ghost {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   background-color: transparent;
-  color: var(--color-brand-blue-500);
+  color: var(--color-brand-blue-500) !important;
   border: 2px solid var(--color-brand-blue-100);
   font-family: var(--dt-font-sans);
   font-weight: 600;
@@ -162,14 +216,16 @@
 .btn-outline-ghost:hover {
   background-color: var(--color-brand-blue-50);
   border-color: var(--color-brand-blue-500);
+  color: var(--color-brand-blue-500) !important;
 }
 
+/* WhatsApp Pill */
 .whatsapp-pill {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   background-color: #25D366;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 700;
   border-radius: 9999px;
   padding: 0.75rem 1.25rem;
@@ -198,24 +254,24 @@
 
 .pill-badge-blue {
   background-color: var(--color-brand-blue-50);
-  color: var(--color-brand-blue-500);
+  color: var(--color-brand-blue-500) !important;
   border: 1px solid var(--color-brand-blue-100);
 }
 
 .pill-badge-yellow {
   background-color: var(--color-brand-yellow-500);
-  color: var(--color-brand-blue-900);
+  color: var(--color-brand-blue-500) !important;
 }
 
 .live-badge {
   background-color: rgba(34, 197, 94, 0.12);
-  color: var(--color-green-500);
+  color: var(--color-green-500) !important;
   border: 1px solid rgba(34, 197, 94, 0.3);
 }
 
 .alert-badge {
   background-color: rgba(220, 38, 38, 0.12);
-  color: var(--color-red-600);
+  color: var(--color-red-600) !important;
   border: 1px solid rgba(220, 38, 38, 0.3);
 }
 
@@ -225,6 +281,7 @@
   border: 1px solid var(--color-brand-blue-50);
   border-radius: 16px;
   padding: 1.5rem;
+  color: var(--color-brand-blue-500); /* Regla: Fondo Blanco -> Texto Azul (#0950f6) */
   box-shadow: var(--shadow-md);
   transition: var(--default-transition);
 }
@@ -236,9 +293,9 @@
 }
 
 .card-dark {
-  background-color: var(--color-brand-blue-900);
-  border: 1px solid var(--color-brand-blue-700);
+  background-color: var(--color-brand-blue-500);
+  border: 1px solid var(--color-brand-blue-400);
   border-radius: 16px;
-  color: #ffffff;
+  color: #ffffff; /* Regla: Fondo Azul -> Texto Blanco (#ffffff) */
   padding: 1.75rem;
 }
