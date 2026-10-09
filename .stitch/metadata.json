@@ -122,5 +122,117 @@
       "sourceScreen": "projects/11311557637053872683/screens/9190487841533905984",
       "file": "paginas_separadas/terminos_condiciones/terminos-hero.html"
     }
+  ],
+  "generatedScreens": [
+    {
+      "module": "home",
+      "title": "Envíos DosRuedas - Home Hero",
+      "screenId": "60cfecbcced54b8dad81ec5311430c35",
+      "sourceScreen": "projects/11311557637053872683/screens/60cfecbcced54b8dad81ec5311430c35"
+    },
+    {
+      "module": "cotizar",
+      "title": "Envíos DosRuedas - Cotizador Interactivo MDQ",
+      "screenId": "dc4561d9f3b34d7cb2b8957dc40cafb0",
+      "sourceScreen": "projects/11311557637053872683/screens/dc4561d9f3b34d7cb2b8957dc40cafb0",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzdlMzc3MDkwOTZiNjRmMmM5ZWFkMDI0MTA2OWYxNDgxEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XOtcNUveVoDF7CTE1FpTriCAdweNy0MH1iBu5EKckB0UZYYQJ3ibXgOSGo6SHPOahPtLPyw0IvCL0TG8o9IEzpeYe28eqa7QleFj_SpleGq4mu_BeKQ4vXqP3fBFWHETbOcOE9ieMGAIE2oI23K1aHSomQLMF5SLj9Hdm8r0wd7QjoZGlVr81uphm5NP7WNDb-bIFMqx7yo1GuwWKQOK667yw5JwGeaKWhHmbIcpjR8SWydfYHzqJtJxk"
+    },
+    {
+      "module": "contacto",
+      "title": "Envíos DosRuedas - Contacto & Canales Directos MDQ",
+      "screenId": "3eb1b59acd834c3681452b15046276f1",
+      "sourceScreen": "projects/11311557637053872683/screens/3eb1b59acd834c3681452b15046276f1",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzYxNDk3M2YzMWQyMTQzMjY4NDE4ZWFkZjNmNjBjZDRiEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VgkFjkxqwYSMwjjQx__RtdaPs5esWDbOTQ0iTHFIJi3XVlw83W6xfB4hU-v0GxB_NL6t1nchpVlPzKwmkFzAJYah7crkB_EoTG0KUXtvNlm1nEbKo99INuowOeBLK2-VcyfefAia9FnKIMmgE5rsGsZqOOpBdf1M7m7zZaoAAy9ab8ZfUlG2dcDlvodetw97MwJkKoA3bmEzlKHw0i24LwZXIlBPCqngie254wNF5tpo1YspFyPuWQdAQ"
+    },
+    {
+      "module": "enviosemprendedores",
+      "title": "Envíos DosRuedas - Plan Emprendedores & E-Commerce MDQ",
+      "screenId": "b4065c87d1db4b2690a3119fcaf94c23",
+      "sourceScreen": "projects/11311557637053872683/screens/b4065c87d1db4b2690a3119fcaf94c23",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2E4NjRhNTBjNDRkNjQzNTJhNmEzNjhkN2Y3MGU2MTZkEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XWR0_8DVKDj2TlrhKA8HdUTmJh-oq5ogqtTKmbeZltPI-5Hrbbaifz0rxiVL1H8T4VC9tTVCfquuoqHqdhJbf4_TleMGUTkIy6jg11C2iTLYyAwxf2lRJ2-sBHenl3rJutxn77hGeSKQqXW-oE2JMA2sSS7Ol3rpY3Oiwov_To-UwV_8lwXOoMwu_6j5jGGQEbJQT8huYj5rsSZ25u2fTrFoPxPxhWHBB78k7VE2tlH6mcKVGOVNUOIAI"
+    },
+    {
+      "module": "enviosexpress",
+      "title": "Envíos DosRuedas - Envíos Express Prioritarios <3hs MDQ",
+      "screenId": "576364bf3a644a76b7bc8960d6c3863e",
+      "sourceScreen": "projects/11311557637053872683/screens/576364bf3a644a76b7bc8960d6c3863e",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzM0ZTgwNWQzODNkMjQxMmI5YmFmNjRjMGEzNDE2OWRhEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1V4R0Q93aUF4a_3hgXEuSa204vRmWZ6mLi8AqZCKP2EPpJzGWCNWLYjfXFpWVVYjh8fR9Txws3NQWOaz3zzhshoSTcdSokDKoYjAddMrFw74I9H5yUdrR2Jcvb9IyA1Wx9RnXiGaF9oVTYn2BELIS4W5Vjx_n3Wkxd-5sLLDRFJghJWbBgYrvt1_v_sc4EZowq-wVFxue1_MdoMsqpzNrvdHZX-72WDoGlgDMwGEPRNmTVpnuy6w76rb4c"
+    },
+    {
+      "module": "enviosflex",
+      "title": "Envíos DosRuedas - Mercado Envíos Flex MDQ",
+      "screenId": "2253c6ef2bf246ff983399ee0914cfb3",
+      "sourceScreen": "projects/11311557637053872683/screens/2253c6ef2bf246ff983399ee0914cfb3",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzhmYWRlN2M5MTQ2YjQ4NmY5ZDU5ODU1ZmM2NGI0Mjc4EgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XpS7F09BKGdoNuQluMG6i37e8pFW9oJdv3rdd2yHiDPr21KmIxJy3jRD53sLX7Ka-xV8gLpanshVB2NHsuAiVrOd8EhalKnVqorPxkz6UMRVXWRs6rKLpDBVi1aAfFxCf1Fv27kqvdaLAW-QzsShbZ0xu9kHRDckh7JmE8kyS2b6scAPfK8wJHYQ22eTYBNaUNsxSuVjVquYrvsgL8Jslx8s26y2iThSEo0aCb9bJMm2vWgP11aoQszlM"
+    },
+    {
+      "module": "enviosfullfilment",
+      "title": "Envíos DosRuedas - Fulfillment & Depósito 3PL MDQ",
+      "screenId": "3597981ed26544d39f27bb1400a92723",
+      "sourceScreen": "projects/11311557637053872683/screens/3597981ed26544d39f27bb1400a92723",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzc5NTE4Y2YwODFlOTQyOTE4YWUyNzJmY2NiN2U1YTIyEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Uh9bHOQP33rLKaTTkgRoc4hUwwg_g4F31upPk5loWsOwvI0dXBaHCnHZWuquHcDu31AS8fR8GlYWpc0UcpKZmIQKf5k4N7PhBKbiPEtIkwgbADYmgGT27B-3C4oa09X7GvwWztzKqmxAlEwFeXdYtRx506UhwkL3h3G6QhqA4Q5QNIqmaD0_MbPzPG7YzWwDyXImLxnfu-Fykr6DS0pN8k-6R8c7cMSGFeDZE0eodZ0xQmcpIbIKdyHhM"
+    },
+    {
+      "module": "envioslowcost",
+      "title": "Envíos DosRuedas - Envíos LowCost Programados MDQ",
+      "screenId": "080ca93177b2417d900f72f848584616",
+      "sourceScreen": "projects/11311557637053872683/screens/080ca93177b2417d900f72f848584616",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzY4OWJmMjk2NDRkZjQyYTk5YmY4ZDAxYzFiZTQyNmI1EgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WQAJHnOj4OWf5fk1u7gHnIJxO2NwJYgID1ZcvSYg_4ggKuRttIq3fqdxa9TMHtckbxGR6-B4Qu2Osn_mQEJoEe7NYOVXDn4Lidj3yCIMKKxYYnQp-CNxAM7LJ-QcjceUP9JwdQ-2DIFhZTB4PnRZOZKEWDXu0EY4j0LIuHvT6JpjiSNhI3wf556gxlGuxIuubsdC8nsnZYReqbIFm2Jrysk1a_R_EKotIig9eQP3WWr0yRUrMkbVKdSlu_"
+    },
+    {
+      "module": "faq",
+      "title": "Envíos DosRuedas - Centro de Ayuda & FAQ Hero MDQ",
+      "screenId": "b791e7e8999a48649b5757dac37ae828",
+      "sourceScreen": "projects/11311557637053872683/screens/b791e7e8999a48649b5757dac37ae828",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2NiYTVhMTA2YTI1NjRiY2M5NDlkZDk0YmNkMDY1YzRlEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Wi_p152KQWczC7LDQFrz5dlt_rNsVNN5TgWLfF-fA-d6a2TzjA56Mh0Bh0LKTgExv_jwe0aTYxvzLowvfhNlqVk8ZOQj8pfG1Neu6wym8jl2LI2Nzcgztw9btKoB8-pOmtdy-bWc-DtpeDc0B2ZTTx1WaKBRyhCjAYdy58aTr3N-KcP_p8D4G9b5cer_23VtxgoMMWZRdDX0McngM_Z4U99rxs0YF5ciwxPup50yhlmcL9ESROIX9tk-Kx"
+    },
+    {
+      "module": "nosotros",
+      "title": "Envíos DosRuedas - Nosotros: Historia & Flota MDQ",
+      "screenId": "bc80d944aa2643509cc0076c9f0f8736",
+      "sourceScreen": "projects/11311557637053872683/screens/bc80d944aa2643509cc0076c9f0f8736",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2ZmZmNkNmQwNGIxNzQyOGI4ZTZhZWM2ZDM0YzRmNzcyEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Vm_BBA1Uteya-KR_TPpLFFi1cRZNRs-w726xEk75n_7XvkdWbPo1AyCk6336q59PN-h15o_z2Mip38MTfsIKfBxdbNbRO3MkTd2qJSEG0V2LxxDxdGK6Lv9ljRggUIAVboqO7in3ZdSpPiB3yETxr1sKkS1MPI6AIVPLaPmPQPH5vurhaQnprgnony_FcbRBYxJOpgh5r4evktYEnEZHFQC2PZdWZ_uLhMOVvpG6tIJJvGbFEFxo0W7HOf"
+    },
+    {
+      "module": "redes",
+      "title": "Envíos DosRuedas - Redes Sociales & WhatsApp Hub MDQ",
+      "screenId": "0a2ce2cea3d047628ee09779d0ad3b9f",
+      "sourceScreen": "projects/11311557637053872683/screens/0a2ce2cea3d047628ee09779d0ad3b9f",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2FmN2JmMzk1ZWU0ODQ5MjM5NTg5M2JhN2ZkY2EyZmRhEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WdoeS8cBuuWbg_-EBVvAT_bZEMJLIGhL9Mepd7tzyeJ1icRvgMux69Sj8Hu21zLd8zyVZNpalo2UwqPVFqiSGH75ew3QVg4Tr6O1QqrRnI8QDC8CXlaM1l-8flvrOWDHZ-lM4y41rNOdDhmmapEqnlzlHUejDHBfh2ujUmBnZmOQCQL-43mYvkm1skRHPa8E2snw3QzYOzhqZHbO2GvZUCoEU_bXqrbcxm6ZvonbUWw-0vFPem5uE2QgYC"
+    },
+    {
+      "module": "politica_privacidad",
+      "title": "Envíos DosRuedas - Política de Privacidad & Protección de Datos MDQ",
+      "screenId": "c4af32a7e41544a59ac899ea9ba1839a",
+      "sourceScreen": "projects/11311557637053872683/screens/c4af32a7e41544a59ac899ea9ba1839a",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2Y2ZDM3MzUzN2UzODQ4OGJhZTg3NGM4ZWUzZDM0YTBkEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1W7jQDaDHqrqlRBIWHMnEcHV_WEvIvwHqq8icjH2iBbO37KpzeIjnk2X5ccu3IZIBR3l5LGYnAC8hKPQFe8AJZ4cGJPoNgz7zBD65m1xKlcz8itLRa8JVk8xVlMOgJ_xw1IJfjViclF2q3t6iSUECcB7eE7w_J2Q-nhxaB7FaF29ThcbHhOZ8gaphEra9mCULZ8ESjlYAf4Yxv_SoDjgBqOlJ6LkvrigYhLG162Zx_uyMgQjHGaedFHVRg"
+    },
+    {
+      "module": "servicios_contrarrembolso",
+      "title": "Envíos DosRuedas - Envíos con Cobro Contra Reembolso MDQ",
+      "screenId": "e7b1f71655704adea5bb539cc03a1604",
+      "sourceScreen": "projects/11311557637053872683/screens/e7b1f71655704adea5bb539cc03a1604",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2I1ODAzZGIzMjhhMTRhY2RhN2IxMTJlOTExMGNkMGRjEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1X4vfbKW8cAQUbKii3KDQoQTDhCRPX29qhcx_kp8g-HGRLHs60qV2ZN0HRiDlzYWOFbM_qu0gwjNoiGWhZf45zxIZprKXlWeQTOQIlvsF3gwo3HSz1-ktPKy_4TeGkAlZh8cHDIkWMrtHXjFdctSzeDkuFBqiqX2w1ASdCmlLUqivo1Qh96zojwU8wzvWzY3Fg7kdYSP9sTQhWWQeAqJX304sGWZX_wRSHGLQSiXsb6r7qsm8O7aDmP4gt7"
+    },
+    {
+      "module": "terminos_condiciones",
+      "title": "Envíos DosRuedas - Términos y Condiciones & Marco Legal MDQ",
+      "screenId": "89d57c4594424ac4b5da576a89260a69",
+      "sourceScreen": "projects/11311557637053872683/screens/89d57c4594424ac4b5da576a89260a69",
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzJlMTk2ZjhkOGRiNzRhZTc5MzdjY2VjMTAxYzhlMWRjEgsSBxDZgv6W1wMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTMxMTU1NzYzNzA1Mzg3MjY4Mw&filename=&opi=96797242",
+      "screenshotUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VtsBgSk2NLLe8AjwIL0EUQgV3AfIuClmji6zCb-D7kYda_xrB2sZPStlGGZjYp7SaMuTA-CUrJE3wFarbQvcy4Dl1GClgoBiR-byMNCuVa34fvfmLB6m8wqe8PNPFa5QkmrUqbXIe1yhTBJyRPAZj0aHa70gmg2z1Y5oDpPKeCIPJa7nxY9j2OFuNuQtXCViWvtbXHxNHrJ-mMaCTKQai-fTBGEQtm8PNIGdBF2FH11QKj4WLRN9UGjLpK"
+    }
   ]
 }
