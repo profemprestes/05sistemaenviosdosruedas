@@ -1,4 +1,4 @@
-﻿    @layer properties {
+    @layer properties {
       @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
 
         *,
@@ -5521,3 +5521,145 @@
       --font-subheading: "Bebas Neue", Impact, sans-serif;
       --font-mono: "Geist Mono", ui-monospace, monospace;
     }
+
+/* ==========================================================================
+   ENHANCED MOBILE RESPONSIVENESS & ZERO-OVERFLOW SYSTEM (320px - 768px)
+   ========================================================================== */
+
+/* 1. Global Box Constraints & Scroll Handling */
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, ::before, ::after {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* 2. Prevent Horizontal Scrollbars on Media & Containers */
+img, svg, video, canvas, iframe, picture {
+  max-width: 100% !important;
+  height: auto;
+}
+
+/* 3. Text Wrapping & Hyphenation Safety */
+h1, h2, h3, h4, h5, h6, p, span, a, button, label, li {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* 4. Touch Targets & Input Controls on Mobile (< 768px) */
+@media (max-width: 768px) {
+  button,
+  a.btn,
+  .btn,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  select,
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"] {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  select,
+  textarea {
+    font-size: 16px !important; /* Prevents auto-zoom on iOS Safari */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Grid Layout Handling on Mobile */
+  .grid {
+    width: 100% !important;
+  }
+
+  /* Horizontal Scroll for Data Tables or Horizontal Lists */
+  .overflow-x-auto, table {
+    display: block;
+    width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 5. Typography & Spacing Fluid Scaling (< 640px) */
+@media (max-width: 640px) {
+  /* Fluid scaling for extra large text */
+  .text-8xl, .text-7xl, .text-6xl {
+    font-size: clamp(2.25rem, 8vw, 3.5rem) !important;
+    line-height: 1.05 !important;
+  }
+  .text-5xl, .text-4xl {
+    font-size: clamp(1.75rem, 6vw, 2.5rem) !important;
+    line-height: 1.1 !important;
+  }
+  .text-3xl {
+    font-size: clamp(1.4rem, 5vw, 1.875rem) !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Mobile Padding Safety */
+  .px-6, .px-8, .px-12, .px-16 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .py-20, .py-24, .py-32 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  .py-16, .py-12 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Map Badge Adjustments for Mobile Viewports */
+  .left-\[-4\%\], .right-\[-2\%\] {
+    left: 0.5rem !important;
+    right: 0.5rem !important;
+    max-width: calc(100% - 1rem) !important;
+  }
+
+  /* 3D Stacked Cards Bounds on Small Mobile Screens */
+  .w-\[290px\] {
+    max-width: calc(100vw - 2rem) !important;
+  }
+}
+
+/* 6. Strict Design System Color Rule Enforcement on Mobile */
+:root {
+  --color-brand-blue-500: #0950f6 !important;
+  --color-brand-yellow-500: #ffec01 !important;
+  --color-white: #ffffff !important;
+}
+
+body, html {
+  background-color: #ffffff;
+  color: #0950f6;
+}
+
+.bg-white {
+  color: #0950f6 !important;
+}
+
+.bg-brand-yellow-500 {
+  color: #0950f6 !important;
+}
+
+.bg-brand-blue-500 {
+  color: #ffffff !important;
+}
