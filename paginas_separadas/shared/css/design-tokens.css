@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Bebas+Neue&family=Geist+Mono:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ==========================================================================
+   ENVÍOS DOSRUEDAS (MAR DEL PLATA) - DESIGN TOKENS & SYSTEM BASE
+   File: paginas_separadas/shared/css/design-tokens.css
+   Project ID: enviosdosruedas-mdp
+   ========================================================================== */
+
+:root {
+  /* --- Brand Colors (Electric Hyper Blue & High-Vis Yellow) --- */
+  --color-brand-blue-50: #e6eefe;
+  --color-brand-blue-75: #d6e4fe;
+  --color-brand-blue-100: #bacefd;
+  --color-brand-blue-200: #8eaffb;
+  --color-brand-blue-300: #628ff9;
+  --color-brand-blue-400: #3570f8;
+  --color-brand-blue-500: #0950f6; /* Electric Hyper Blue (Primary Brand) */
+  --color-brand-blue-600: #0a4fc0;
+  --color-brand-blue-700: #083aa3; /* Royal Navy */
+  --color-brand-blue-800: #062d85;
+  --color-brand-blue-900: #041f63; /* Deep Navy Ink (Dark Backdrops / Headers) */
+
+  --color-brand-yellow-300: #fff45c; /* Sunlight Accent */
+  --color-brand-yellow-400: #fff12e; /* Vibrant Yellow Hover */
+  --color-brand-yellow-500: #ffec01; /* High-Vis Action Yellow (Primary CTA) */
+
+  --color-brand-ink: #041f63;
+
+  /* --- Alert & Status Colors --- */
+  --color-red-600: #dc2626;   /* Express Alert Red (Surge / Emergency) */
+  --color-green-500: #22c55e; /* Live Status Green (Service Online / Success) */
+
+  /* --- Neutrals & Surfaces --- */
+  --color-white: #ffffff;
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-500: #64748b; /* Cool Steel Grey (Secondary Text) */
+  --color-slate-900: #0f172a; /* Slate Dark Ink */
+
+  /* --- Design Tokens Font References --- */
+  --dt-font-display: "Anton", "Anton SC", ui-sans-serif, sans-serif;
+  --dt-font-subheading: "Bebas Neue", ui-sans-serif, sans-serif;
+  --dt-font-sans: "Outfit", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --dt-font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* --- Font Weights --- */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* --- Radii --- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+  --radius-full: 9999px;
+
+  /* --- Shadows & Elevation --- */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(9, 80, 246, 0.08), 0 2px 4px -1px rgba(9, 80, 246, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(9, 80, 246, 0.12), 0 4px 6px -2px rgba(9, 80, 246, 0.05);
+  --shadow-cta-yellow: 0 10px 25px -5px rgba(255, 236, 1, 0.4);
+  --shadow-float: 0 25px 50px -12px rgba(9, 80, 246, 0.15);
+  --shadow-antigravity-deep: 0 24px 64px rgba(9, 80, 246, 0.22);
+
+  /* --- Transitions --- */
+  --default-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --------------------------------------------------------------------------
+   UTILITY CLASSES FOR DESIGN SYSTEM COMPONENTS
+   -------------------------------------------------------------------------- */
+.font-display {
+  font-family: var(--dt-font-display);
+}
+
+.font-subheading {
+  font-family: var(--dt-font-subheading);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.font-sans {
+  font-family: var(--dt-font-sans);
+}
+
+.font-mono {
+  font-family: var(--dt-font-mono);
+}
+
+/* --- BUTTON COMPONENTS --- */
+.btn-primary-yellow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-brand-yellow-500);
+  color: var(--color-brand-blue-900);
+  font-family: var(--dt-font-sans);
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.875rem 1.75rem;
+  text-decoration: none;
+  border: none;
+  box-shadow: var(--shadow-cta-yellow);
+  transition: var(--default-transition);
+  cursor: pointer;
+}
+
+.btn-primary-yellow:hover {
+  background-color: var(--color-brand-yellow-400);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -4px rgba(255, 236, 1, 0.5);
+}
+
+.btn-secondary-blue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-brand-blue-500);
+  color: #ffffff;
+  font-family: var(--dt-font-sans);
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.875rem 1.75rem;
+  text-decoration: none;
+  border: none;
+  transition: var(--default-transition);
+  cursor: pointer;
+}
+
+.btn-secondary-blue:hover {
+  background-color: var(--color-brand-blue-700);
+  transform: translateY(-2px);
+}
+
+.btn-outline-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: var(--color-brand-blue-500);
+  border: 2px solid var(--color-brand-blue-100);
+  font-family: var(--dt-font-sans);
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  transition: var(--default-transition);
+  cursor: pointer;
+}
+
+.btn-outline-ghost:hover {
+  background-color: var(--color-brand-blue-50);
+  border-color: var(--color-brand-blue-500);
+}
+
+.whatsapp-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #25D366;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+  transition: var(--default-transition);
+}
+
+.whatsapp-pill:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+}
+
+/* --- BADGES & STATUS TAGS --- */
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pill-badge-blue {
+  background-color: var(--color-brand-blue-50);
+  color: var(--color-brand-blue-500);
+  border: 1px solid var(--color-brand-blue-100);
+}
+
+.pill-badge-yellow {
+  background-color: var(--color-brand-yellow-500);
+  color: var(--color-brand-blue-900);
+}
+
+.live-badge {
+  background-color: rgba(34, 197, 94, 0.12);
+  color: var(--color-green-500);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.alert-badge {
+  background-color: rgba(220, 38, 38, 0.12);
+  color: var(--color-red-600);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+}
+
+/* --- CARDS & CONTAINERS --- */
+.card-feature {
+  background-color: #ffffff;
+  border: 1px solid var(--color-brand-blue-50);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+  transition: var(--default-transition);
+}
+
+.card-feature:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-float);
+  border-color: var(--color-brand-blue-100);
+}
+
+.card-dark {
+  background-color: var(--color-brand-blue-900);
+  border: 1px solid var(--color-brand-blue-700);
+  border-radius: 16px;
+  color: #ffffff;
+  padding: 1.75rem;
+}
